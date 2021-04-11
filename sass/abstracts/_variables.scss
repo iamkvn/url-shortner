@@ -1,0 +1,32 @@
+:root {
+  //COLORS
+  --color-primary-light-1: hsl(180, 66%, 49%);
+  --color-primary-light-2: hsl(180, 54%, 74%);
+  --color-primary-dark: hsl(257, 27%, 26%);
+
+  --color-secondary: hsl(0, 87%, 67%);
+
+  --color-gray-light-1: hsl(0, 0%, 75%);
+  --color-gray-light-2: hsl(257, 7%, 63%);
+  --color-gray-light-3: hsl(231, 30%, 95%);
+
+  --color-gray-dark-1: hsl(255, 11%, 22%);
+  --color-gray-dark-2: hsl(260, 8%, 14%);
+}
+
+// MEDIA QUERY MANAGER
+/*
+  0 - 600px:      Phone
+  600 - 900px:    Tablet portrait
+  900 - 1200px:   Tablet landscape
+  [1200 - 1800] is where our normal styles apply
+  1800px + :      Big desktop
+  */
+
+// RESPONSIVE BREAKPOINTS
+//px / 16
+$bp-xl: 75em; // 1200px
+$bp-lg: 62.5em; // 1000px
+$bp-md: 50em; // 800px
+$bp-sm: 37.5em; // 600px;
+$bp-xs: 31.87em; // 500px;

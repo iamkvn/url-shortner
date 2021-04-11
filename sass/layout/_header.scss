@@ -1,0 +1,78 @@
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto auto 1.5fr;
+  position: relative;
+
+  @media only screen and (max-width: $bp-lg) {
+    grid-template-rows: 25rem auto auto 1.5fr;
+  }
+
+  &__img {
+    width: 80rem;
+    position: absolute;
+    top: 17rem;
+    right: -25rem;
+
+    @media only screen and (max-width: $bp-lg) {
+      width: 85rem;
+      top: 32rem;
+    }
+
+    @media only screen and (max-width: $bp-md) {
+      top: 35rem;
+    }
+
+    @media only screen and (max-width: $bp-sm) {
+      width: 75rem;
+    }
+
+    @media only screen and (max-width: $bp-xs) {
+      top: 39rem;
+    }
+  }
+
+  .heading-1 {
+    align-self: end;
+
+    @media only screen and (max-width: $bp-sm) {
+      font-size: 7rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .paragraph {
+    width: 40ch;
+    font-size: 2.5rem;
+
+    @media only screen and (max-width: $bp-sm) {
+      font-size: 2rem;
+      width: 30ch;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .btn {
+    justify-self: start;
+  }
+
+  .url-shortner {
+    grid-row: 4 / 5;
+    align-self: end;
+    position: absolute;
+    top: 32rem;
+
+    @media only screen and (max-width: $bp-lg) {
+      top: 58rem;
+    }
+
+    @media only screen and (max-width: $bp-sm) {
+      top: 54rem;
+    }
+
+    @media only screen and (max-width: $bp-xs) {
+      top: 51rem;
+    }
+  }
+}

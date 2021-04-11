@@ -1,0 +1,24 @@
+.heading-1 {
+  font-size: 8rem;
+  color: var(--color-gray-dark-1);
+}
+
+.heading-2 {
+  font-size: 4rem;
+
+  &--light {
+    color: #fefefe;
+  }
+
+  &--dark {
+    color: var(--color-gray-dark-1);
+  }
+}
+
+.heading-3 {
+  color: var(--color-gray-dark-1);
+}
+
+.paragraph {
+  color: var(--color-gray-light-1);
+}
